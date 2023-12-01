@@ -23,3 +23,5 @@ npm install
 ```
 node index.js
 ```
+
+[MVC Architecture](https://drive.google.com/file/d/1v9BuuTMctOMMJJBliA3YsFJh52S10Khk/view?usp=sharing)
