@@ -1,9 +1,9 @@
 const express = require('express'); // we got access to express function
 const bodyParser = require('body-parser');
 
-const app = express(); // app is a new express application object
+const { PORT } = require('./config/serverConfig');
 
-const PORT = 3000;
+const app = express(); // app is a new express application object
 
 
 app.use(bodyParser.json()) // for parsing application/json
